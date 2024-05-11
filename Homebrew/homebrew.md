@@ -13,3 +13,10 @@ brew edit iina-plus
 # reinstall
 brew reinstall iina-plus
 ```
+
+## 2. 在线查询formula and cask
+formula 查询
+https://github.com/Homebrew/homebrew-core/find/master
+
+cask 查询
+https://github.com/Homebrew/homebrew-cask/find/master

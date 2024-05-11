@@ -24,3 +24,12 @@ sudo lsof -i:8080
 mv ~/.gitconfig $XDG_CONFIG_HOME/git/config
 mv ~/.gitignore_global $XDG_CONFIG_HOME/git/ignore
 ```
+
+5 ## cp 如果目标目录不存在，自动创建目标目录。
+```
+# $_ ==> 上一个命令的最后一个参数
+mkdir -p /foo/bar && cp myfile.txt $_
+```
+
+6 ## cd - => 返回上一个所在目录
+
